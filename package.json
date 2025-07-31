@@ -1,0 +1,18 @@
+{
+  "name": "mentor-mentee-mapping",
+  "version": "1.0.0",
+  "description": "A full-stack mentor-mentee matching system",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd backend && npm run dev",
+    "client": "cd frontend && npm start",
+    "build": "cd frontend && npm run build",
+    "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install"
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  },
+  "keywords": ["mentor", "mentee", "matching", "react", "node", "express"],
+  "author": "",
+  "license": "MIT"
+}
